@@ -4,11 +4,10 @@ from discord import app_commands
 from discord.ext import commands
 from services import warframestat
 from utils.formatting import discord_time, is_expired
+from utils.utils import TRANSLATIONS
 from services import worldstate_raw
 
 import json
-
-RELIC_TIER = ["Lith", "Meso", "Neo", "Axi", "Requiem", "Omnia"]
 
 class Warframestat(commands.Cog):
     def __init__(self, bot):
@@ -36,10 +35,6 @@ class Warframestat(commands.Cog):
 
         normal.sort(key=lambda f: f["tierNum"])
         hard.sort(key=lambda f: f["tierNum"])
-        # print("\n===========Normal===========\n")
-        # print(normal)
-        # print("\n===========Hard===========\n")
-        # print(hard)
 
         embeds_list = []
 
@@ -49,7 +44,8 @@ class Warframestat(commands.Cog):
                 color=discord.Color.blue()
             )
             normal_lines = [
-                f"• **{f['tier']}** | `{f['missionType']}` ({f['node']}) — {discord_time(f['expiry'])}"
+                # TRANSLATIONS.get(key, key) falls back to the original English string if not found
+                f"• **{TRANSLATIONS.get(f['tier'], f['tier'])}** | `{TRANSLATIONS.get(f['missionType'], f['missionType'])}` ({f['node']}) — {discord_time(f['expiry'])}"
                 for f in normal
             ]
             normal_embed.description = "\n".join(normal_lines)
@@ -57,21 +53,25 @@ class Warframestat(commands.Cog):
 
         if hard:
             hard_embed = discord.Embed(
-                title="💀 강철의 길 (Steel Path) 보이드 균열 현황", 
+                title="💀 강철의 길 보이드 균열 현황", 
                 color=discord.Color.red()
             )
             hard_lines = [
-                f"• **{f['tier']}** | `{f['missionType']}` ({f['node']}) — {discord_time(f['expiry'])}"
+                f"• **{TRANSLATIONS.get(f['tier'], f['tier'])}** | `{TRANSLATIONS.get(f['missionType'], f['missionType'])}` ({f['node']}) — {discord_time(f['expiry'])}"
                 for f in hard
             ]
             hard_embed.description = "\n".join(hard_lines)
             embeds_list.append(hard_embed)
 
         if embeds_list:
-            # Discord allows up to 10 embeds in a single message list
             await interaction.followup.send(embeds=embeds_list)
         else:
             await interaction.followup.send("현재 활성화된 균열이 없습니다.")
+
+    @app_commands.command(name="키티어", description="키티어 시간")
+    async def kiteer(self, interaction: discord.Interaction):
+        await interaction.response.defer()
+
 
 async def setup(bot):
     await bot.add_cog(Warframestat(bot))

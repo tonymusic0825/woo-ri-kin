@@ -3,7 +3,7 @@ from discord import app_commands
 from discord.ext import commands, tasks
 from services import warframestat
 from utils.formatting import discord_time, is_expired
-from utils.utils import GoodFissures, get_fissure_thumbnail
+from utils.utils import GoodFissures, get_fissure_thumbnail, TRANSLATIONS
 from tests.fake_fissures import FAKE_FISSURES
 from services import worldstate_raw
 import os
@@ -30,7 +30,6 @@ class Globalping(commands.Cog):
 
     @tasks.loop(minutes=1)
     async def check_worldstate(self):
-        print("Checking if there are good fissures")
         channel = self.bot.get_channel(ANNOUNCE_CHANNEL_ID)
         if channel is None:
             print("Announcement channel not found. Check ANNOUNCE_CHANNEL_ID.")
@@ -86,17 +85,17 @@ class Globalping(commands.Cog):
                 print(f"Failed to announce fissure {f['id']}: {e}")
 
     async def send_fissure(self, channel, f):
-        kind = "Steel Path" if f["isHard"] else "Normal"
+        kind = "강철의 길" if f["isHard"] else "일반"
 
         node, planet = GOOD_FISSURES.parse_nodekey(f["nodeKey"])
 
         embed = discord.Embed(
-            title=f"{node} Fissure ({kind})",
+            title=f"{node} 균열 ({kind})",
             description=(
-                f"**Planet:** {planet}\n"
-                f"**Mission Type:** {f['missionType']}\n"
-                f"**Fissure Type:** {f['tier']}\n"
-                f"**Expires:** {discord_time(f['expiry'])}"
+                f"**행성:** {planet}\n"
+                f"**Mission 타입:** {TRANSLATIONS.get(f['missionType'], f['missionType'])}\n"
+                f"**Fissure 타입:** {TRANSLATIONS.get(f['tier'], f['tier'])}\n"
+                f"**만료:** {discord_time(f['expiry'])}"
             ),
             color=discord.Color.orange(),
         )

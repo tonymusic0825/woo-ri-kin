@@ -1140,32 +1140,32 @@
     "type": "자유 탐험"
   },
   "SolNode230": {
-    "value": "Everview Arc (Zariman)",
+    "value": "Everview Arc (자리만)",
     "enemy": "크로스파이어",
     "type": "Void Flood"
   },
   "SolNode231": {
-    "value": "Halako Perimeter (Zariman)",
+    "value": "Halako Perimeter (자리만)",
     "enemy": "크로스파이어",
     "type": "섬멸"
   },
   "SolNode232": {
-    "value": "Tuvul Commons (Zariman)",
+    "value": "Tuvul Commons (자리만)",
     "enemy": "크로스파이어",
     "type": "Void Cascade"
   },
   "SolNode233": {
-    "value": "Oro Works (Zariman)",
+    "value": "Oro Works (자리만)",
     "enemy": "크로스파이어",
     "type": "Void Armageddon"
   },
   "SolNode234": {
-    "value": "Dormizone (Zariman)",
+    "value": "Dormizone (자리만)",
     "enemy": "텐노",
     "type": "릴레이"
   },
   "SolNode235": {
-    "value": "The Greenway (Zariman)",
+    "value": "The Greenway (자리만)",
     "enemy": "크로스파이어",
     "type": "모바일 방어"
   },
@@ -1190,7 +1190,7 @@
     "type": "릴레이"
   },
   "ZarimanHub": {
-    "value": "Chrysalith (Zariman)",
+    "value": "Chrysalith (자리만)",
     "enemy": "텐노",
     "type": "릴레이"
   },
@@ -1480,17 +1480,17 @@
     "type": "구출"
   },
   "SolNode308": {
-    "value": "Apollo (Lua)",
+    "value": "Apollo (루아)",
     "enemy": "코퍼스",
     "type": "Disruption"
   },
   "SolNode309": {
-    "value": "Yuvarium (Lua)",
+    "value": "Yuvarium (루아)",
     "enemy": "오로킨",
     "type": "생존"
   },
   "SolNode310": {
-    "value": "Circulus (Lua)",
+    "value": "Circulus (루아)",
     "enemy": "그리니어",
     "type": "생존"
   },
