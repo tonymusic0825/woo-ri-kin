@@ -5,6 +5,7 @@ from services import warframestat
 from utils.formatting import discord_time, is_expired
 from utils.utils import GoodFissures, get_fissure_thumbnail
 from tests.fake_fissures import FAKE_FISSURES
+from services import worldstate_raw
 import os
 
 EVERYONE = discord.AllowedMentions(everyone=True)
@@ -62,7 +63,7 @@ class Globalping(commands.Cog):
 
         if fissures is None:
             try:
-                fissures = await warframestat.get_fissures()
+                fissures = await worldstate_raw.get_fissures()
             except Exception as e:
                 print(f"Fissure check failed: {e}")
                 return
@@ -90,9 +91,9 @@ class Globalping(commands.Cog):
         node, planet = GOOD_FISSURES.parse_nodekey(f["nodeKey"])
 
         embed = discord.Embed(
-            title=f"{node} - Fissure ({kind})",
+            title=f"{node} Fissure ({kind})",
             description=(
-                f"**Planet: {planet}\n"
+                f"**Planet:** {planet}\n"
                 f"**Mission Type:** {f['missionType']}\n"
                 f"**Fissure Type:** {f['tier']}\n"
                 f"**Expires:** {discord_time(f['expiry'])}"

@@ -14,7 +14,7 @@ class GoodFissures:
         self.best_missions = {
             "Exterminate": None,
             "Capture": None,
-            "Defense": ["Saturn", "Eris", "Void", "Uranus"],
+            "Defense": ["토성", "에리스", "보이드", "천왕성"],
             "Void Cascade": None,
         }
 
@@ -32,7 +32,7 @@ class GoodFissures:
             return isHard and planet in self.best_missions["Defense"]
 
         # Exterminate / Capture / etc. in the Void (normal or Steel Path)
-        if planet == "Void" and missionKey in self.best_missions:
+        if planet == "보이드" and missionKey in self.best_missions:
             return True
 
         # Void Cascade: Steel Path only
