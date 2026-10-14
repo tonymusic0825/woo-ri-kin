@@ -1,0 +1,2102 @@
+[
+  {
+    "slug": "kulstar",
+    "name_en": "Kulstar",
+    "name_ko": "컬스타"
+  },
+  {
+    "slug": "heliocor",
+    "name_en": "Heliocor",
+    "name_ko": "헬리오코어"
+  },
+  {
+    "slug": "nagantaka",
+    "name_en": "Nagantaka",
+    "name_ko": "나간타카"
+  },
+  {
+    "slug": "ocucor",
+    "name_en": "Ocucor",
+    "name_ko": "오큐코어"
+  },
+  {
+    "slug": "falcor",
+    "name_en": "Falcor",
+    "name_ko": "팔코어"
+  },
+  {
+    "slug": "paracesis",
+    "name_en": "Paracesis",
+    "name_ko": "파라세시스"
+  },
+  {
+    "slug": "exergis",
+    "name_en": "Exergis",
+    "name_ko": "엑설지스"
+  },
+  {
+    "slug": "battacor",
+    "name_en": "Battacor",
+    "name_ko": "바타코어"
+  },
+  {
+    "slug": "euphona_prime",
+    "name_en": "Euphona Prime",
+    "name_ko": "유포나 프라임"
+  },
+  {
+    "slug": "fusilai",
+    "name_en": "Fusilai",
+    "name_ko": "푸실라이"
+  },
+  {
+    "slug": "lato",
+    "name_en": "Lato",
+    "name_ko": "라토"
+  },
+  {
+    "slug": "magnus",
+    "name_en": "Magnus",
+    "name_ko": "매그너스"
+  },
+  {
+    "slug": "ack_and_brunt",
+    "name_en": "Ack & Brunt",
+    "name_ko": "아크 & 브런트"
+  },
+  {
+    "slug": "amphis",
+    "name_en": "Amphis",
+    "name_ko": "앰피스"
+  },
+  {
+    "slug": "anku",
+    "name_en": "Anku",
+    "name_ko": "안쿠"
+  },
+  {
+    "slug": "arca_titron",
+    "name_en": "Arca Titron",
+    "name_ko": "아르카 티트론"
+  },
+  {
+    "slug": "balla",
+    "name_en": "Balla",
+    "name_ko": "발라"
+  },
+  {
+    "slug": "boltace",
+    "name_en": "Boltace",
+    "name_ko": "볼테이스"
+  },
+  {
+    "slug": "broken_war",
+    "name_en": "Broken War",
+    "name_ko": "브로큰 워"
+  },
+  {
+    "slug": "caustacyst",
+    "name_en": "Caustacyst",
+    "name_ko": "커스타시스트"
+  },
+  {
+    "slug": "cerata",
+    "name_en": "Cerata",
+    "name_ko": "세라타"
+  },
+  {
+    "slug": "hate",
+    "name_en": "Hate",
+    "name_ko": "헤이트"
+  },
+  {
+    "slug": "soma",
+    "name_en": "Soma",
+    "name_ko": "소마"
+  },
+  {
+    "slug": "synapse",
+    "name_en": "Synapse",
+    "name_ko": "시냅스"
+  },
+  {
+    "slug": "tigris",
+    "name_en": "Tigris",
+    "name_ko": "티그리스"
+  },
+  {
+    "slug": "tonkor",
+    "name_en": "Tonkor",
+    "name_ko": "톤코어"
+  },
+  {
+    "slug": "torid",
+    "name_en": "Torid",
+    "name_ko": "토리드"
+  },
+  {
+    "slug": "vectis",
+    "name_en": "Vectis",
+    "name_ko": "벡티스"
+  },
+  {
+    "slug": "veldt",
+    "name_en": "Veldt",
+    "name_ko": "베르트"
+  },
+  {
+    "slug": "vulkar",
+    "name_en": "Vulkar",
+    "name_ko": "불카"
+  },
+  {
+    "slug": "zarr",
+    "name_en": "Zarr",
+    "name_ko": "자르"
+  },
+  {
+    "slug": "zenith",
+    "name_en": "Zenith",
+    "name_ko": "제니스"
+  },
+  {
+    "slug": "zhuge",
+    "name_en": "Zhuge",
+    "name_ko": "제갈"
+  },
+  {
+    "slug": "acrid",
+    "name_en": "Acrid",
+    "name_ko": "아크리드"
+  },
+  {
+    "slug": "afuris",
+    "name_en": "Afuris",
+    "name_ko": "아퓨리스"
+  },
+  {
+    "slug": "akbolto",
+    "name_en": "Akbolto",
+    "name_ko": "아크볼토"
+  },
+  {
+    "slug": "akbronco",
+    "name_en": "Akbronco",
+    "name_ko": "아크브롱코"
+  },
+  {
+    "slug": "akjagara",
+    "name_en": "Akjagara",
+    "name_ko": "아크자가라"
+  },
+  {
+    "slug": "aklato",
+    "name_en": "Aklato",
+    "name_ko": "아클라토"
+  },
+  {
+    "slug": "arca_scisco",
+    "name_en": "Arca Scisco",
+    "name_ko": "아르카 시스코"
+  },
+  {
+    "slug": "cycron",
+    "name_en": "Cycron",
+    "name_ko": "사이크론"
+  },
+  {
+    "slug": "detron",
+    "name_en": "Detron",
+    "name_ko": "데트론"
+  },
+  {
+    "slug": "embolist",
+    "name_en": "Embolist",
+    "name_ko": "엠볼리스트"
+  },
+  {
+    "slug": "dual_kamas",
+    "name_en": "Dual Kamas",
+    "name_ko": "듀얼 카마스"
+  },
+  {
+    "slug": "kuva_shildeg",
+    "name_en": "Kuva Shildeg",
+    "name_ko": "쿠바 쉴데그"
+  },
+  {
+    "slug": "kuva_ayanga",
+    "name_en": "Kuva Ayanga",
+    "name_ko": "쿠바 아얀가"
+  },
+  {
+    "slug": "vermisplicer",
+    "name_en": "Vermisplicer",
+    "name_ko": "버미스플라이서"
+  },
+  {
+    "slug": "sporelacer",
+    "name_en": "Sporelacer",
+    "name_ko": "스포어레이서"
+  },
+  {
+    "slug": "argonak",
+    "name_en": "Argonak",
+    "name_ko": "아르고나크"
+  },
+  {
+    "slug": "castanas",
+    "name_en": "Castanas",
+    "name_ko": "캐스타나스"
+  },
+  {
+    "slug": "cestra",
+    "name_en": "Cestra",
+    "name_ko": "세스트라"
+  },
+  {
+    "slug": "dual_toxocyst",
+    "name_en": "Dual Toxocyst",
+    "name_ko": "듀얼 톡소시스트"
+  },
+  {
+    "slug": "hystrix",
+    "name_en": "Hystrix",
+    "name_ko": "히스트릭스"
+  },
+  {
+    "slug": "fragor",
+    "name_en": "Fragor",
+    "name_ko": "프레거"
+  },
+  {
+    "slug": "galatine",
+    "name_en": "Galatine",
+    "name_ko": "갈라틴"
+  },
+  {
+    "slug": "gazal_machete",
+    "name_en": "Gazal Machete",
+    "name_ko": "가잘 마체테"
+  },
+  {
+    "slug": "gram",
+    "name_en": "Gram",
+    "name_ko": "그람"
+  },
+  {
+    "slug": "guandao",
+    "name_en": "Guandao",
+    "name_ko": "관도"
+  },
+  {
+    "slug": "gunsen",
+    "name_en": "Gunsen",
+    "name_ko": "군센"
+  },
+  {
+    "slug": "dual_skana",
+    "name_en": "Dual Skana",
+    "name_ko": "듀얼 스카나"
+  },
+  {
+    "slug": "jaw_sword",
+    "name_en": "Jaw Sword",
+    "name_ko": "조우 소드"
+  },
+  {
+    "slug": "kesheg",
+    "name_en": "Kesheg",
+    "name_ko": "케쉐그"
+  },
+  {
+    "slug": "kestrel",
+    "name_en": "Kestrel",
+    "name_ko": "케스트렐"
+  },
+  {
+    "slug": "kronsh",
+    "name_en": "Kronsh",
+    "name_ko": "크론쉬"
+  },
+  {
+    "slug": "ballistica",
+    "name_en": "Ballistica",
+    "name_ko": "발리스티카"
+  },
+  {
+    "slug": "heat_dagger",
+    "name_en": "Heat Dagger",
+    "name_ko": "히트 대거"
+  },
+  {
+    "slug": "jat_kittag",
+    "name_en": "Jat Kittag",
+    "name_ko": "젯 키타그"
+  },
+  {
+    "slug": "sonicor",
+    "name_en": "Sonicor",
+    "name_ko": "소니코어"
+  },
+  {
+    "slug": "tombfinger",
+    "name_en": "Tombfinger",
+    "name_ko": "툼핑거"
+  },
+  {
+    "slug": "gaze",
+    "name_en": "Gaze",
+    "name_ko": "게이즈"
+  },
+  {
+    "slug": "pupacyst",
+    "name_en": "Pupacyst",
+    "name_ko": "퓨파시스트"
+  },
+  {
+    "slug": "arca_plasmor",
+    "name_en": "Arca Plasmor",
+    "name_ko": "아르카 플라즈모어"
+  },
+  {
+    "slug": "galvacord",
+    "name_en": "Galvacord",
+    "name_ko": "갈바코드"
+  },
+  {
+    "slug": "bronco",
+    "name_en": "Bronco",
+    "name_ko": "브롱코"
+  },
+  {
+    "slug": "dual_cestra",
+    "name_en": "Dual Cestra",
+    "name_ko": "듀얼 세스트라"
+  },
+  {
+    "slug": "furis",
+    "name_en": "Furis",
+    "name_ko": "퓨리스"
+  },
+  {
+    "slug": "ankyros",
+    "name_en": "Ankyros",
+    "name_ko": "앤카이로스"
+  },
+  {
+    "slug": "atterax",
+    "name_en": "Atterax",
+    "name_ko": "아터락스"
+  },
+  {
+    "slug": "bo",
+    "name_en": "Bo",
+    "name_ko": "보"
+  },
+  {
+    "slug": "cassowar",
+    "name_en": "Cassowar",
+    "name_ko": "카소워"
+  },
+  {
+    "slug": "ceramic_dagger",
+    "name_en": "Ceramic Dagger",
+    "name_ko": "세라믹 대거"
+  },
+  {
+    "slug": "halikar",
+    "name_en": "Halikar",
+    "name_ko": "할리카르"
+  },
+  {
+    "slug": "hirudo",
+    "name_en": "Hirudo",
+    "name_ko": "히루도"
+  },
+  {
+    "slug": "mire",
+    "name_en": "Mire",
+    "name_ko": "마이어"
+  },
+  {
+    "slug": "twin_krohkur",
+    "name_en": "Twin Krohkur",
+    "name_ko": "트윈 크로쿠르"
+  },
+  {
+    "slug": "latron",
+    "name_en": "Latron",
+    "name_ko": "래트론"
+  },
+  {
+    "slug": "lenz",
+    "name_en": "Lenz",
+    "name_ko": "렌즈"
+  },
+  {
+    "slug": "miter",
+    "name_en": "Miter",
+    "name_ko": "마이터"
+  },
+  {
+    "slug": "mutalist_cernos",
+    "name_en": "Mutalist Cernos",
+    "name_ko": "뮤탈리스트 세르노스"
+  },
+  {
+    "slug": "mutalist_quanta",
+    "name_en": "Mutalist Quanta",
+    "name_ko": "뮤탈리스트 콴타"
+  },
+  {
+    "slug": "opticor",
+    "name_en": "Opticor",
+    "name_ko": "옵티코어"
+  },
+  {
+    "slug": "panthera",
+    "name_en": "Panthera",
+    "name_ko": "팬서라"
+  },
+  {
+    "slug": "penta",
+    "name_en": "Penta",
+    "name_ko": "펜타"
+  },
+  {
+    "slug": "phage",
+    "name_en": "Phage",
+    "name_ko": "페이지"
+  },
+  {
+    "slug": "phantasma",
+    "name_en": "Phantasma",
+    "name_ko": "판타즈마"
+  },
+  {
+    "slug": "quanta",
+    "name_en": "Quanta",
+    "name_ko": "콴타"
+  },
+  {
+    "slug": "rubico",
+    "name_en": "Rubico",
+    "name_ko": "루비코"
+  },
+  {
+    "slug": "simulor",
+    "name_en": "Simulor",
+    "name_ko": "시뮬러"
+  },
+  {
+    "slug": "snipetron",
+    "name_en": "Snipetron",
+    "name_ko": "스나이프트론"
+  },
+  {
+    "slug": "sobek",
+    "name_en": "Sobek",
+    "name_ko": "소벡"
+  },
+  {
+    "slug": "stradavar",
+    "name_en": "Stradavar",
+    "name_ko": "스트라다바"
+  },
+  {
+    "slug": "strun",
+    "name_en": "Strun",
+    "name_ko": "스트런"
+  },
+  {
+    "slug": "sybaris",
+    "name_en": "Sybaris",
+    "name_ko": "시바리스"
+  },
+  {
+    "slug": "tetra",
+    "name_en": "Tetra",
+    "name_ko": "테트라"
+  },
+  {
+    "slug": "gammacor",
+    "name_en": "Gammacor",
+    "name_ko": "감마코어"
+  },
+  {
+    "slug": "nukor",
+    "name_en": "Nukor",
+    "name_ko": "뉴코어"
+  },
+  {
+    "slug": "pandero",
+    "name_en": "Pandero",
+    "name_ko": "판데로"
+  },
+  {
+    "slug": "pox",
+    "name_en": "Pox",
+    "name_ko": "폭스"
+  },
+  {
+    "slug": "pyrana",
+    "name_en": "Pyrana",
+    "name_ko": "파이라나"
+  },
+  {
+    "slug": "sicarus",
+    "name_en": "Sicarus",
+    "name_ko": "시카루스"
+  },
+  {
+    "slug": "spira",
+    "name_en": "Spira",
+    "name_ko": "스피라"
+  },
+  {
+    "slug": "dehtat",
+    "name_en": "Dehtat",
+    "name_ko": "데흐탓"
+  },
+  {
+    "slug": "destreza",
+    "name_en": "Destreza",
+    "name_ko": "데스트레자"
+  },
+  {
+    "slug": "dex_dakra",
+    "name_en": "Dex Dakra",
+    "name_ko": "덱스 다크라"
+  },
+  {
+    "slug": "dokrahm",
+    "name_en": "Dokrahm",
+    "name_ko": "도크람"
+  },
+  {
+    "slug": "dragon_nikana",
+    "name_en": "Dragon Nikana",
+    "name_ko": "드래곤 니카나"
+  },
+  {
+    "slug": "dual_cleavers",
+    "name_en": "Dual Cleavers",
+    "name_ko": "듀얼 클리버즈"
+  },
+  {
+    "slug": "dual_ether",
+    "name_en": "Dual Ether",
+    "name_ko": "듀얼 에테르"
+  },
+  {
+    "slug": "dual_heat_swords",
+    "name_en": "Dual Heat Swords",
+    "name_ko": "듀얼 히트 소드"
+  },
+  {
+    "slug": "dual_ichor",
+    "name_en": "Dual Ichor",
+    "name_ko": "듀얼 이코르"
+  },
+  {
+    "slug": "dual_keres",
+    "name_en": "Dual Keres",
+    "name_ko": "듀얼 케레스"
+  },
+  {
+    "slug": "kama",
+    "name_en": "Kama",
+    "name_ko": "카마"
+  },
+  {
+    "slug": "kogake",
+    "name_en": "Kogake",
+    "name_ko": "코가케"
+  },
+  {
+    "slug": "multron",
+    "name_en": "Multron",
+    "name_ko": "멀트론"
+  },
+  {
+    "slug": "vulcax",
+    "name_en": "Vulcax",
+    "name_ko": "불칵스"
+  },
+  {
+    "slug": "masseter",
+    "name_en": "Masseter",
+    "name_ko": "매시터"
+  },
+  {
+    "slug": "pathocyst",
+    "name_en": "Pathocyst",
+    "name_ko": "패소시스트"
+  },
+  {
+    "slug": "kuva_chakkhurr",
+    "name_en": "Kuva Chakkhurr",
+    "name_ko": "쿠바 차쿠르"
+  },
+  {
+    "slug": "lecta",
+    "name_en": "Lecta",
+    "name_ko": "렉타"
+  },
+  {
+    "slug": "machete",
+    "name_en": "Machete",
+    "name_ko": "마체테"
+  },
+  {
+    "slug": "magistar",
+    "name_en": "Magistar",
+    "name_ko": "마기스타"
+  },
+  {
+    "slug": "mewan",
+    "name_en": "Mewan",
+    "name_ko": "메완"
+  },
+  {
+    "slug": "mios",
+    "name_en": "Mios",
+    "name_ko": "미오스"
+  },
+  {
+    "slug": "rabvee",
+    "name_en": "Rabvee",
+    "name_ko": "랍비"
+  },
+  {
+    "slug": "war",
+    "name_en": "War",
+    "name_ko": "워"
+  },
+  {
+    "slug": "artax",
+    "name_en": "Artax",
+    "name_ko": "아르탁스"
+  },
+  {
+    "slug": "burst_laser",
+    "name_en": "Burst Laser",
+    "name_ko": "버스트 레이저"
+  },
+  {
+    "slug": "deth_machine_rifle",
+    "name_en": "Deth Machine Rifle",
+    "name_ko": "데스 머신 라이플"
+  },
+  {
+    "slug": "laser_rifle",
+    "name_en": "Laser Rifle",
+    "name_ko": "레이저 라이플"
+  },
+  {
+    "slug": "astilla",
+    "name_en": "Astilla",
+    "name_ko": "아스틸라"
+  },
+  {
+    "slug": "baza",
+    "name_en": "Baza",
+    "name_ko": "바자"
+  },
+  {
+    "slug": "boar",
+    "name_en": "Boar",
+    "name_ko": "보어"
+  },
+  {
+    "slug": "flux_rifle",
+    "name_en": "Flux Rifle",
+    "name_ko": "플럭스 라이플"
+  },
+  {
+    "slug": "cronus",
+    "name_en": "Cronus",
+    "name_ko": "크로노스"
+  },
+  {
+    "slug": "endura",
+    "name_en": "Endura",
+    "name_ko": "엔듀라"
+  },
+  {
+    "slug": "glaive",
+    "name_en": "Glaive",
+    "name_ko": "글레이브"
+  },
+  {
+    "slug": "heat_sword",
+    "name_en": "Heat Sword",
+    "name_ko": "히트 소드"
+  },
+  {
+    "slug": "jat_kusar",
+    "name_en": "Jat Kusar",
+    "name_ko": "젯 쿠사르"
+  },
+  {
+    "slug": "nami_skyla",
+    "name_en": "Nami Skyla",
+    "name_ko": "나미 스카일라"
+  },
+  {
+    "slug": "nami_solo",
+    "name_en": "Nami Solo",
+    "name_ko": "나미 솔로"
+  },
+  {
+    "slug": "nikana",
+    "name_en": "Nikana",
+    "name_ko": "니카나"
+  },
+  {
+    "slug": "ninkondi",
+    "name_en": "Ninkondi",
+    "name_ko": "닌콘디"
+  },
+  {
+    "slug": "obex",
+    "name_en": "Obex",
+    "name_ko": "오벡스"
+  },
+  {
+    "slug": "ohma",
+    "name_en": "Ohma",
+    "name_ko": "오마"
+  },
+  {
+    "slug": "okina",
+    "name_en": "Okina",
+    "name_ko": "오키나"
+  },
+  {
+    "slug": "ooltha",
+    "name_en": "Ooltha",
+    "name_ko": "울타"
+  },
+  {
+    "slug": "orthos",
+    "name_en": "Orthos",
+    "name_ko": "오르도스"
+  },
+  {
+    "slug": "orvius",
+    "name_en": "Orvius",
+    "name_ko": "오르비우스"
+  },
+  {
+    "slug": "pangolin_sword",
+    "name_en": "Pangolin Sword",
+    "name_ko": "팽골린 소드"
+  },
+  {
+    "slug": "plague_keewar",
+    "name_en": "Plague Keewar",
+    "name_ko": "플레이그 키워"
+  },
+  {
+    "slug": "plague_kripath",
+    "name_en": "Plague Kripath",
+    "name_ko": "플레이그 크리파스"
+  },
+  {
+    "slug": "plasma_sword",
+    "name_en": "Plasma Sword",
+    "name_ko": "플라즈마 소드"
+  },
+  {
+    "slug": "prova",
+    "name_en": "Prova",
+    "name_ko": "프로바"
+  },
+  {
+    "slug": "redeemer",
+    "name_en": "Redeemer",
+    "name_ko": "리디머"
+  },
+  {
+    "slug": "skana",
+    "name_en": "Skana",
+    "name_ko": "스카나"
+  },
+  {
+    "slug": "harpak",
+    "name_en": "Harpak",
+    "name_ko": "하르팍"
+  },
+  {
+    "slug": "hema",
+    "name_en": "Hema",
+    "name_ko": "헤마"
+  },
+  {
+    "slug": "hind",
+    "name_en": "Hind",
+    "name_ko": "하인드"
+  },
+  {
+    "slug": "ignis",
+    "name_en": "Ignis",
+    "name_ko": "이그니스"
+  },
+  {
+    "slug": "javlok",
+    "name_en": "Javlok",
+    "name_ko": "자블락"
+  },
+  {
+    "slug": "karak",
+    "name_en": "Karak",
+    "name_ko": "카락"
+  },
+  {
+    "slug": "kohm",
+    "name_en": "Kohm",
+    "name_ko": "콤"
+  },
+  {
+    "slug": "lanka",
+    "name_en": "Lanka",
+    "name_ko": "란카"
+  },
+  {
+    "slug": "paris",
+    "name_en": "Paris",
+    "name_ko": "패리스"
+  },
+  {
+    "slug": "quartakk",
+    "name_en": "Quartakk",
+    "name_ko": "쿼르탁"
+  },
+  {
+    "slug": "scourge",
+    "name_en": "Scourge",
+    "name_ko": "스커지"
+  },
+  {
+    "slug": "spectra",
+    "name_en": "Spectra",
+    "name_ko": "스펙트라"
+  },
+  {
+    "slug": "staticor",
+    "name_en": "Staticor",
+    "name_ko": "스태티코어"
+  },
+  {
+    "slug": "stubba",
+    "name_en": "Stubba",
+    "name_ko": "스터바"
+  },
+  {
+    "slug": "stug",
+    "name_en": "Stug",
+    "name_ko": "스터그"
+  },
+  {
+    "slug": "talons",
+    "name_en": "Talons",
+    "name_ko": "탈론즈"
+  },
+  {
+    "slug": "twin_grakatas",
+    "name_en": "Twin Grakatas",
+    "name_ko": "트윈 그라카타"
+  },
+  {
+    "slug": "twin_gremlins",
+    "name_en": "Twin Gremlins",
+    "name_ko": "트윈 그렘린즈"
+  },
+  {
+    "slug": "twin_kohmak",
+    "name_en": "Twin Kohmak",
+    "name_ko": "트윈 코막"
+  },
+  {
+    "slug": "twin_rogga",
+    "name_en": "Twin Rogga",
+    "name_ko": "트윈 로가"
+  },
+  {
+    "slug": "twin_vipers",
+    "name_en": "Twin Vipers",
+    "name_ko": "트윈 바이퍼즈"
+  },
+  {
+    "slug": "tysis",
+    "name_en": "Tysis",
+    "name_ko": "타이시스"
+  },
+  {
+    "slug": "vasto",
+    "name_en": "Vasto",
+    "name_ko": "바스토"
+  },
+  {
+    "slug": "viper",
+    "name_en": "Viper",
+    "name_ko": "바이퍼"
+  },
+  {
+    "slug": "zylok",
+    "name_en": "Zylok",
+    "name_ko": "자일락"
+  },
+  {
+    "slug": "dakra_prime",
+    "name_en": "Dakra Prime",
+    "name_ko": "다크라 프라임"
+  },
+  {
+    "slug": "dark_dagger",
+    "name_en": "Dark Dagger",
+    "name_ko": "다크 대거"
+  },
+  {
+    "slug": "kuva_twin_stubbas",
+    "name_en": "Kuva Twin Stubbas",
+    "name_ko": "쿠바 트윈 스터바"
+  },
+  {
+    "slug": "pennant",
+    "name_en": "Pennant",
+    "name_ko": "페넌트"
+  },
+  {
+    "slug": "kuva_bramma",
+    "name_en": "Kuva Bramma",
+    "name_ko": "쿠바 브람마"
+  },
+  {
+    "slug": "stropha",
+    "name_en": "Stropha",
+    "name_ko": "스트로파"
+  },
+  {
+    "slug": "morgha",
+    "name_en": "Morgha",
+    "name_ko": "모르가"
+  },
+  {
+    "slug": "catabolyst",
+    "name_en": "Catabolyst",
+    "name_ko": "카타볼리스트"
+  },
+  {
+    "slug": "hikou",
+    "name_en": "Hikou",
+    "name_ko": "히코우"
+  },
+  {
+    "slug": "knell",
+    "name_en": "Knell",
+    "name_ko": "넬"
+  },
+  {
+    "slug": "kohmak",
+    "name_en": "Kohmak",
+    "name_ko": "코막"
+  },
+  {
+    "slug": "kraken",
+    "name_en": "Kraken",
+    "name_ko": "크라켄"
+  },
+  {
+    "slug": "kunai",
+    "name_en": "Kunai",
+    "name_ko": "쿠나이"
+  },
+  {
+    "slug": "lex",
+    "name_en": "Lex",
+    "name_ko": "렉스"
+  },
+  {
+    "slug": "marelok",
+    "name_en": "Marelok",
+    "name_ko": "메어락"
+  },
+  {
+    "slug": "broken_scepter",
+    "name_en": "Broken Scepter",
+    "name_ko": "브로큰 셉터"
+  },
+  {
+    "slug": "dual_zoren",
+    "name_en": "Dual Zoren",
+    "name_ko": "듀얼 조런"
+  },
+  {
+    "slug": "ether_daggers",
+    "name_en": "Ether Daggers",
+    "name_ko": "에테르 대거"
+  },
+  {
+    "slug": "ether_reaper",
+    "name_en": "Ether Reaper",
+    "name_ko": "에테르 리퍼"
+  },
+  {
+    "slug": "ether_sword",
+    "name_en": "Ether Sword",
+    "name_ko": "에테르 소드"
+  },
+  {
+    "slug": "fang",
+    "name_en": "Fang",
+    "name_ko": "팽"
+  },
+  {
+    "slug": "furax",
+    "name_en": "Furax",
+    "name_ko": "퓨랙스"
+  },
+  {
+    "slug": "karyst",
+    "name_en": "Karyst",
+    "name_ko": "캐리스트"
+  },
+  {
+    "slug": "stinger",
+    "name_en": "Stinger",
+    "name_ko": "스팅어"
+  },
+  {
+    "slug": "vulklok",
+    "name_en": "Vulklok",
+    "name_ko": "불클락"
+  },
+  {
+    "slug": "catchmoon",
+    "name_en": "Catchmoon",
+    "name_ko": "캐치문"
+  },
+  {
+    "slug": "plinx",
+    "name_en": "Plinx",
+    "name_ko": "플링크스"
+  },
+  {
+    "slug": "korrudo",
+    "name_en": "Korrudo",
+    "name_ko": "코루도"
+  },
+  {
+    "slug": "fulmin",
+    "name_en": "Fulmin",
+    "name_ko": "펄민"
+  },
+  {
+    "slug": "cobra_and_crane",
+    "name_en": "Cobra & Crane",
+    "name_ko": "코브라 & 크레인"
+  },
+  {
+    "slug": "komorex",
+    "name_en": "Komorex",
+    "name_ko": "코모렉스"
+  },
+  {
+    "slug": "cyanex",
+    "name_en": "Cyanex",
+    "name_ko": "사이아넥스"
+  },
+  {
+    "slug": "tatsu",
+    "name_en": "Tatsu",
+    "name_ko": "타츠"
+  },
+  {
+    "slug": "cyngas",
+    "name_en": "Cyngas",
+    "name_ko": "싱가스"
+  },
+  {
+    "slug": "larkspur",
+    "name_en": "Larkspur",
+    "name_ko": "라크스퍼"
+  },
+  {
+    "slug": "imperator",
+    "name_en": "Imperator",
+    "name_ko": "임페라토르"
+  },
+  {
+    "slug": "corvas",
+    "name_en": "Corvas",
+    "name_ko": "코르바스"
+  },
+  {
+    "slug": "phaedra",
+    "name_en": "Phaedra",
+    "name_ko": "파이드라"
+  },
+  {
+    "slug": "grattler",
+    "name_en": "Grattler",
+    "name_ko": "그라틀러"
+  },
+  {
+    "slug": "dual_decurion",
+    "name_en": "Dual Decurion",
+    "name_ko": "듀얼 데큐리온"
+  },
+  {
+    "slug": "attica",
+    "name_en": "Attica",
+    "name_ko": "아티카"
+  },
+  {
+    "slug": "boltor",
+    "name_en": "Boltor",
+    "name_ko": "볼터"
+  },
+  {
+    "slug": "braton",
+    "name_en": "Braton",
+    "name_ko": "브래튼"
+  },
+  {
+    "slug": "corinth",
+    "name_en": "Corinth",
+    "name_ko": "코린트"
+  },
+  {
+    "slug": "ferrox",
+    "name_en": "Ferrox",
+    "name_ko": "페록스"
+  },
+  {
+    "slug": "hek",
+    "name_en": "Hek",
+    "name_ko": "헥"
+  },
+  {
+    "slug": "ogris",
+    "name_en": "Ogris",
+    "name_ko": "오그리스"
+  },
+  {
+    "slug": "paracyst",
+    "name_en": "Paracyst",
+    "name_ko": "파라시스트"
+  },
+  {
+    "slug": "supra",
+    "name_en": "Supra",
+    "name_ko": "수프라"
+  },
+  {
+    "slug": "tenora",
+    "name_en": "Tenora",
+    "name_ko": "테노라"
+  },
+  {
+    "slug": "tiberon",
+    "name_en": "Tiberon",
+    "name_ko": "티버론"
+  },
+  {
+    "slug": "aklex",
+    "name_en": "Aklex",
+    "name_ko": "아클렉스"
+  },
+  {
+    "slug": "akmagnus",
+    "name_en": "Akmagnus",
+    "name_ko": "아크매그너스"
+  },
+  {
+    "slug": "aksomati",
+    "name_en": "Aksomati",
+    "name_ko": "아크소마티"
+  },
+  {
+    "slug": "akstiletto",
+    "name_en": "Akstiletto",
+    "name_ko": "아크스틸레토"
+  },
+  {
+    "slug": "akvasto",
+    "name_en": "Akvasto",
+    "name_ko": "아크바스토"
+  },
+  {
+    "slug": "akzani",
+    "name_en": "Akzani",
+    "name_ko": "아크자니"
+  },
+  {
+    "slug": "angstrum",
+    "name_en": "Angstrum",
+    "name_ko": "앙스트럼"
+  },
+  {
+    "slug": "atomos",
+    "name_en": "Atomos",
+    "name_ko": "아토모스"
+  },
+  {
+    "slug": "azima",
+    "name_en": "Azima",
+    "name_ko": "아지마"
+  },
+  {
+    "slug": "bolto",
+    "name_en": "Bolto",
+    "name_ko": "볼토"
+  },
+  {
+    "slug": "brakk",
+    "name_en": "Brakk",
+    "name_ko": "브락"
+  },
+  {
+    "slug": "despair",
+    "name_en": "Despair",
+    "name_ko": "디스페어"
+  },
+  {
+    "slug": "dual_raza",
+    "name_en": "Dual Raza",
+    "name_ko": "듀얼 라자"
+  },
+  {
+    "slug": "reaper_prime",
+    "name_en": "Reaper Prime",
+    "name_ko": "리퍼 프라임"
+  },
+  {
+    "slug": "ripkas",
+    "name_en": "Ripkas",
+    "name_ko": "립카스"
+  },
+  {
+    "slug": "dark_sword",
+    "name_en": "Dark Sword",
+    "name_ko": "다크 소드"
+  },
+  {
+    "slug": "kreska",
+    "name_en": "Kreska",
+    "name_ko": "크레스카"
+  },
+  {
+    "slug": "velocitus",
+    "name_en": "Velocitus",
+    "name_ko": "벨로시투스"
+  },
+  {
+    "slug": "fluctus",
+    "name_en": "Fluctus",
+    "name_ko": "플럭투스"
+  },
+  {
+    "slug": "quatz",
+    "name_en": "Quatz",
+    "name_ko": "콰츠"
+  },
+  {
+    "slug": "acceltra",
+    "name_en": "Acceltra",
+    "name_ko": "액셀트라"
+  },
+  {
+    "slug": "akarius",
+    "name_en": "Akarius",
+    "name_ko": "아카리우스"
+  },
+  {
+    "slug": "tazicor",
+    "name_en": "Tazicor",
+    "name_ko": "타지코어"
+  },
+  {
+    "slug": "cryotra",
+    "name_en": "Cryotra",
+    "name_ko": "크라이오트라"
+  },
+  {
+    "slug": "shedu",
+    "name_en": "Shedu",
+    "name_ko": "세두"
+  },
+  {
+    "slug": "cortege",
+    "name_en": "Cortege",
+    "name_ko": "코르테지"
+  },
+  {
+    "slug": "vitrica",
+    "name_en": "Vitrica",
+    "name_ko": "비트리카"
+  },
+  {
+    "slug": "pulmonars",
+    "name_en": "Pulmonars",
+    "name_ko": "펄모나스"
+  },
+  {
+    "slug": "bubonico",
+    "name_en": "Bubonico",
+    "name_ko": "뷰보니코"
+  },
+  {
+    "slug": "proboscis_cernos",
+    "name_en": "Proboscis Cernos",
+    "name_ko": "프로보시스 세르노스"
+  },
+  {
+    "slug": "sporothrix",
+    "name_en": "Sporothrix",
+    "name_ko": "스포로트릭스"
+  },
+  {
+    "slug": "arum_spinosa",
+    "name_en": "Arum Spinosa",
+    "name_ko": "아룸 스피노사"
+  },
+  {
+    "slug": "sarpa",
+    "name_en": "Sarpa",
+    "name_ko": "사르파"
+  },
+  {
+    "slug": "scindo",
+    "name_en": "Scindo",
+    "name_ko": "신도"
+  },
+  {
+    "slug": "scoliac",
+    "name_en": "Scoliac",
+    "name_ko": "스콜리악"
+  },
+  {
+    "slug": "sepfahn",
+    "name_en": "Sepfahn",
+    "name_ko": "셉판"
+  },
+  {
+    "slug": "serro",
+    "name_en": "Serro",
+    "name_ko": "세로"
+  },
+  {
+    "slug": "shaku",
+    "name_en": "Shaku",
+    "name_ko": "샤쿠"
+  },
+  {
+    "slug": "sheev",
+    "name_en": "Sheev",
+    "name_ko": "쉬브"
+  },
+  {
+    "slug": "sibear",
+    "name_en": "Sibear",
+    "name_ko": "시비어"
+  },
+  {
+    "slug": "sigma_and_octantis",
+    "name_en": "Sigma & Octantis",
+    "name_ko": "시그마 & 옥탄티스"
+  },
+  {
+    "slug": "silva_and_aegis",
+    "name_en": "Silva & Aegis",
+    "name_ko": "실바 & 이지스"
+  },
+  {
+    "slug": "skiajati",
+    "name_en": "Skiajati",
+    "name_ko": "스키아자티"
+  },
+  {
+    "slug": "sydon",
+    "name_en": "Sydon",
+    "name_ko": "사이돈"
+  },
+  {
+    "slug": "tekko",
+    "name_en": "Tekko",
+    "name_ko": "텟코"
+  },
+  {
+    "slug": "tipedo",
+    "name_en": "Tipedo",
+    "name_ko": "티페도"
+  },
+  {
+    "slug": "tonbo",
+    "name_en": "Tonbo",
+    "name_ko": "톤보"
+  },
+  {
+    "slug": "twin_basolk",
+    "name_en": "Twin Basolk",
+    "name_ko": "트윈 바솔크"
+  },
+  {
+    "slug": "amprex",
+    "name_en": "Amprex",
+    "name_ko": "앰프렉스"
+  },
+  {
+    "slug": "burston",
+    "name_en": "Burston",
+    "name_ko": "버스튼"
+  },
+  {
+    "slug": "buzlok",
+    "name_en": "Buzlok",
+    "name_ko": "버즐락"
+  },
+  {
+    "slug": "cernos",
+    "name_en": "Cernos",
+    "name_ko": "세르노스"
+  },
+  {
+    "slug": "convectrix",
+    "name_en": "Convectrix",
+    "name_ko": "컨벡트릭스"
+  },
+  {
+    "slug": "daikyu",
+    "name_en": "Daikyu",
+    "name_ko": "다이큐"
+  },
+  {
+    "slug": "dera",
+    "name_en": "Dera",
+    "name_ko": "데라"
+  },
+  {
+    "slug": "drakgoon",
+    "name_en": "Drakgoon",
+    "name_ko": "드락군"
+  },
+  {
+    "slug": "dread",
+    "name_en": "Dread",
+    "name_ko": "드레드"
+  },
+  {
+    "slug": "glaxion",
+    "name_en": "Glaxion",
+    "name_ko": "글랙시온"
+  },
+  {
+    "slug": "gorgon",
+    "name_en": "Gorgon",
+    "name_ko": "고르곤"
+  },
+  {
+    "slug": "grakata",
+    "name_en": "Grakata",
+    "name_ko": "그라카타"
+  },
+  {
+    "slug": "grinlok",
+    "name_en": "Grinlok",
+    "name_ko": "그린락"
+  },
+  {
+    "slug": "seer",
+    "name_en": "Seer",
+    "name_ko": "시어"
+  },
+  {
+    "slug": "zakti",
+    "name_en": "Zakti",
+    "name_ko": "자크티"
+  },
+  {
+    "slug": "cyath",
+    "name_en": "Cyath",
+    "name_ko": "시아트"
+  },
+  {
+    "slug": "dark_split_sword_(dual_swords)",
+    "name_en": "Dark Split-Sword",
+    "name_ko": "다크 스플릿-소드"
+  },
+  {
+    "slug": "krohkur",
+    "name_en": "Krohkur",
+    "name_ko": "크로쿠르"
+  },
+  {
+    "slug": "kronen",
+    "name_en": "Kronen",
+    "name_ko": "크로넨"
+  },
+  {
+    "slug": "lacera",
+    "name_en": "Lacera",
+    "name_ko": "라세라"
+  },
+  {
+    "slug": "lesion",
+    "name_en": "Lesion",
+    "name_ko": "리션"
+  },
+  {
+    "slug": "venka",
+    "name_en": "Venka",
+    "name_ko": "벤카"
+  },
+  {
+    "slug": "volnus",
+    "name_en": "Volnus",
+    "name_ko": "볼누스"
+  },
+  {
+    "slug": "zenistar",
+    "name_en": "Zenistar",
+    "name_ko": "제니스타"
+  },
+  {
+    "slug": "deconstructor",
+    "name_en": "Deconstructor",
+    "name_ko": "디컨스트럭터"
+  },
+  {
+    "slug": "sweeper",
+    "name_en": "Sweeper",
+    "name_ko": "스위퍼"
+  },
+  {
+    "slug": "rattleguts",
+    "name_en": "Rattleguts",
+    "name_ko": "래틀것"
+  },
+  {
+    "slug": "wolf_sledge",
+    "name_en": "Wolf Sledge",
+    "name_ko": "울프 슬레지"
+  },
+  {
+    "slug": "quellor",
+    "name_en": "Quellor",
+    "name_ko": "퀠러"
+  },
+  {
+    "slug": "basmu",
+    "name_en": "Basmu",
+    "name_ko": "바스무"
+  },
+  {
+    "slug": "stahlta",
+    "name_en": "Stahlta",
+    "name_ko": "스탈타"
+  },
+  {
+    "slug": "velox",
+    "name_en": "Velox",
+    "name_ko": "벨록스"
+  },
+  {
+    "slug": "helstrum",
+    "name_en": "Helstrum",
+    "name_ko": "헬스트럼"
+  },
+  {
+    "slug": "xoris",
+    "name_en": "Xoris",
+    "name_ko": "조리스"
+  },
+  {
+    "slug": "athodai",
+    "name_en": "Athodai",
+    "name_ko": "아쏘다이"
+  },
+  {
+    "slug": "sepulcrum",
+    "name_en": "Sepulcrum",
+    "name_ko": "세펄크럼"
+  },
+  {
+    "slug": "quassus",
+    "name_en": "Quassus",
+    "name_ko": "콰서스"
+  },
+  {
+    "slug": "trumna",
+    "name_en": "Trumna",
+    "name_ko": "트럼나"
+  },
+  {
+    "slug": "zymos",
+    "name_en": "Zymos",
+    "name_ko": "자이모스"
+  },
+  {
+    "slug": "keratinos",
+    "name_en": "Keratinos",
+    "name_ko": "케라티노스"
+  },
+  {
+    "slug": "mausolon",
+    "name_en": "Mausolon",
+    "name_ko": "머솔론"
+  },
+  {
+    "slug": "cedo",
+    "name_en": "Cedo",
+    "name_ko": "세도"
+  },
+  {
+    "slug": "verglas",
+    "name_en": "Verglas",
+    "name_ko": "베르글라"
+  },
+  {
+    "slug": "epitaph",
+    "name_en": "Epitaph",
+    "name_ko": "에피타프"
+  },
+  {
+    "slug": "tenet_envoy",
+    "name_en": "Tenet Envoy",
+    "name_ko": "테넷 엔보이"
+  },
+  {
+    "slug": "tenet_spirex",
+    "name_en": "Tenet Spirex",
+    "name_ko": "테넷 스파이렉스"
+  },
+  {
+    "slug": "kompressa",
+    "name_en": "Kompressa",
+    "name_ko": "콤프렛사"
+  },
+  {
+    "slug": "tenet_exec",
+    "name_en": "Tenet Exec",
+    "name_ko": "테넷 엑제크"
+  },
+  {
+    "slug": "tenet_grigori",
+    "name_en": "Tenet Grigori",
+    "name_ko": "테넷 그리고리"
+  },
+  {
+    "slug": "ambassador",
+    "name_en": "Ambassador",
+    "name_ko": "앰배서더"
+  },
+  {
+    "slug": "cadus",
+    "name_en": "Cadus",
+    "name_ko": "카두스"
+  },
+  {
+    "slug": "tenet_livia",
+    "name_en": "Tenet Livia",
+    "name_ko": "테넷 리비아"
+  },
+  {
+    "slug": "tenet_diplos",
+    "name_en": "Tenet Diplos",
+    "name_ko": "테넷 디플로스"
+  },
+  {
+    "slug": "tenet_agendus",
+    "name_en": "Tenet Agendus",
+    "name_ko": "테넷 아젠더스"
+  },
+  {
+    "slug": "lacerten",
+    "name_en": "Lacerten",
+    "name_ko": "라세르텐"
+  },
+  {
+    "slug": "akaten",
+    "name_en": "Akaten",
+    "name_ko": "아카텐"
+  },
+  {
+    "slug": "batoten",
+    "name_en": "Batoten",
+    "name_ko": "바토텐"
+  },
+  {
+    "slug": "vastilok",
+    "name_en": "Vastilok",
+    "name_ko": "바스틸락"
+  },
+  {
+    "slug": "ghoulsaw",
+    "name_en": "Ghoulsaw",
+    "name_ko": "구울소우"
+  },
+  {
+    "slug": "verdilac",
+    "name_en": "Verdilac",
+    "name_ko": "버딜락"
+  },
+  {
+    "slug": "nepheri",
+    "name_en": "Nepheri",
+    "name_ko": "네페리"
+  },
+  {
+    "slug": "rumblejack",
+    "name_en": "Rumblejack",
+    "name_ko": "럼블잭"
+  },
+  {
+    "slug": "korumm",
+    "name_en": "Korumm",
+    "name_ko": "코룸"
+  },
+  {
+    "slug": "venato",
+    "name_en": "Venato",
+    "name_ko": "베나토"
+  },
+  {
+    "slug": "nataruk",
+    "name_en": "Nataruk",
+    "name_ko": "나타루크"
+  },
+  {
+    "slug": "hespar",
+    "name_en": "Hespar",
+    "name_ko": "헤스파르"
+  },
+  {
+    "slug": "alternox",
+    "name_en": "Alternox",
+    "name_ko": "알터녹스"
+  },
+  {
+    "slug": "aeolak",
+    "name_en": "Aeolak",
+    "name_ko": "아이올락"
+  },
+  {
+    "slug": "phenmor",
+    "name_en": "Phenmor",
+    "name_ko": "펜모어"
+  },
+  {
+    "slug": "laetum",
+    "name_en": "Laetum",
+    "name_ko": "레이텀"
+  },
+  {
+    "slug": "praedos",
+    "name_en": "Praedos",
+    "name_ko": "프레이도스"
+  },
+  {
+    "slug": "innodem",
+    "name_en": "Innodem",
+    "name_ko": "인노뎀"
+  },
+  {
+    "slug": "felarx",
+    "name_en": "Felarx",
+    "name_ko": "펠락스"
+  },
+  {
+    "slug": "vericres",
+    "name_en": "Vericres",
+    "name_ko": "베리크레스"
+  },
+  {
+    "slug": "slaytra",
+    "name_en": "Slaytra",
+    "name_ko": "슬레이트라"
+  },
+  {
+    "slug": "aegrit",
+    "name_en": "Aegrit",
+    "name_ko": "아에그리트"
+  },
+  {
+    "slug": "afentis",
+    "name_en": "Afentis",
+    "name_ko": "아펜티스"
+  },
+  {
+    "slug": "sarofang",
+    "name_en": "Sarofang",
+    "name_ko": "사로팡"
+  },
+  {
+    "slug": "perigale",
+    "name_en": "Perigale",
+    "name_ko": "페리게일"
+  },
+  {
+    "slug": "corufell",
+    "name_en": "Corufell",
+    "name_ko": "코루펠"
+  },
+  {
+    "slug": "steflos",
+    "name_en": "Steflos",
+    "name_ko": "스테플로스"
+  },
+  {
+    "slug": "sampotes",
+    "name_en": "Sampotes",
+    "name_ko": "삼포테스"
+  },
+  {
+    "slug": "azothane",
+    "name_en": "Azothane",
+    "name_ko": "아조세인"
+  },
+  {
+    "slug": "syam",
+    "name_en": "Syam",
+    "name_ko": "시암"
+  },
+  {
+    "slug": "cinta",
+    "name_en": "Cinta",
+    "name_ko": "신타"
+  },
+  {
+    "slug": "sun_and_moon",
+    "name_en": "Sun & Moon",
+    "name_ko": "태양과 달"
+  },
+  {
+    "slug": "edun",
+    "name_en": "Edun",
+    "name_ko": "에둔"
+  },
+  {
+    "slug": "rauta",
+    "name_en": "Rauta",
+    "name_ko": "라우타"
+  },
+  {
+    "slug": "argo_and_vel",
+    "name_en": "Argo & Vel",
+    "name_ko": "아르고 & 벨"
+  },
+  {
+    "slug": "gotva_prime",
+    "name_en": "Gotva Prime",
+    "name_ko": "고트바 프라임"
+  },
+  {
+    "slug": "dorrclave",
+    "name_en": "Dorrclave",
+    "name_ko": "도르클라베"
+  },
+  {
+    "slug": "ekhein",
+    "name_en": "Ekhein",
+    "name_ko": "에카인"
+  },
+  {
+    "slug": "mandonel",
+    "name_en": "Mandonel",
+    "name_ko": "만도넬"
+  },
+  {
+    "slug": "grimoire",
+    "name_en": "Grimoire",
+    "name_ko": "그리모어"
+  },
+  {
+    "slug": "onos",
+    "name_en": "Onos",
+    "name_ko": "오노스"
+  },
+  {
+    "slug": "ruvox",
+    "name_en": "Ruvox",
+    "name_ko": "루복스"
+  },
+  {
+    "slug": "dex_nikana",
+    "name_en": "Dex Nikana",
+    "name_ko": "덱스 니카나"
+  },
+  {
+    "slug": "cantare",
+    "name_en": "Cantare",
+    "name_ko": "칸타레"
+  },
+  {
+    "slug": "evensong",
+    "name_en": "Evensong",
+    "name_ko": "이븐송"
+  },
+  {
+    "slug": "harmony",
+    "name_en": "Harmony",
+    "name_ko": "하모니"
+  },
+  {
+    "slug": "ax_52",
+    "name_en": "AX-52",
+    "name_ko": "AX-52"
+  },
+  {
+    "slug": "higasa",
+    "name_en": "Higasa",
+    "name_ko": "히가사"
+  },
+  {
+    "slug": "amanata",
+    "name_en": "Amanata",
+    "name_ko": "아마나타"
+  },
+  {
+    "slug": "vesper_77",
+    "name_en": "Vesper 77",
+    "name_ko": "베스퍼 77"
+  },
+  {
+    "slug": "reconifex",
+    "name_en": "Reconifex",
+    "name_ko": "리코니펙스"
+  },
+  {
+    "slug": "riot_848",
+    "name_en": "Riot-848",
+    "name_ko": "라이엇-848"
+  },
+  {
+    "slug": "purgator_1",
+    "name_en": "Purgator 1",
+    "name_ko": "퍼게이터 1"
+  },
+  {
+    "slug": "dual_viciss",
+    "name_en": "Dual Viciss",
+    "name_ko": "듀얼 비시스"
+  },
+  {
+    "slug": "efv_8_mars",
+    "name_en": "EFV-8 Mars",
+    "name_ko": "EFV-8 마스"
+  },
+  {
+    "slug": "efv_5_jupiter",
+    "name_en": "EFV-5 Jupiter",
+    "name_ko": "EFV-5 주피터"
+  },
+  {
+    "slug": "dual_coda_torxica",
+    "name_en": "Dual Coda Torxica",
+    "name_ko": "듀얼 코다 톡시카"
+  },
+  {
+    "slug": "coda_motovore",
+    "name_en": "Coda Motovore",
+    "name_ko": "코다 모토보어"
+  },
+  {
+    "slug": "coda_bassocyst",
+    "name_en": "Coda Bassocyst",
+    "name_ko": "코다 바소시스트"
+  },
+  {
+    "slug": "tak_and_lug",
+    "name_en": "Tak & Lug",
+    "name_ko": "탁 & 러그"
+  },
+  {
+    "slug": "tonkkatt",
+    "name_en": "Tonkkatt",
+    "name_ko": "톤캇"
+  },
+  {
+    "slug": "thalys",
+    "name_en": "Thalys",
+    "name_ko": "탈리스"
+  },
+  {
+    "slug": "scyotid",
+    "name_en": "Scyotid",
+    "name_ko": "사이오티드"
+  },
+  {
+    "slug": "spinnerex",
+    "name_en": "Spinnerex",
+    "name_ko": "스피너렉스"
+  },
+  {
+    "slug": "vadarya_prime",
+    "name_en": "Vadarya Prime",
+    "name_ko": "바다르야 프라임"
+  },
+  {
+    "slug": "arbucep",
+    "name_en": "Arbucep",
+    "name_ko": "아르뷰셉"
+  },
+  {
+    "slug": "thornbak",
+    "name_en": "Thornbak",
+    "name_ko": "쏜바크"
+  },
+  {
+    "slug": "vinquibus",
+    "name_en": "Vinquibus",
+    "name_ko": "빈퀴부스"
+  },
+  {
+    "slug": "galariak_prime",
+    "name_en": "Galariak Prime",
+    "name_ko": "갈라리아크 프라임"
+  },
+  {
+    "slug": "sagek_prime",
+    "name_en": "Sagek Prime",
+    "name_ko": "사게크 프라임"
+  },
+  {
+    "slug": "vinquibus_melee",
+    "name_en": "Vinquibus (Melee)",
+    "name_ko": "빈퀴부스 (근접)"
+  },
+  {
+    "slug": "enkaus",
+    "name_en": "Enkaus",
+    "name_ko": "엔카우스"
+  },
+  {
+    "slug": "wrath",
+    "name_en": "Wrath",
+    "name_ko": "라스"
+  },
+  {
+    "slug": "pride",
+    "name_en": "Pride",
+    "name_ko": "프라이드"
+  },
+  {
+    "slug": "haalvu",
+    "name_en": "Haalvu",
+    "name_ko": "하알부"
+  },
+  {
+    "slug": "nunchasa",
+    "name_en": "Nunchasa",
+    "name_ko": "눈차사"
+  },
+  {
+    "slug": "aksondol",
+    "name_en": "Aksondol",
+    "name_ko": "아크손돌"
+  }
+]

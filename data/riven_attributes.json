@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "punch_through",
+    "name_en": "Punch Through",
+    "name_ko": "두께 꿰뚫기"
+  },
+  {
+    "slug": "slash_damage",
+    "name_en": "Slash",
+    "name_ko": "베기"
+  },
+  {
+    "slug": "impact_damage",
+    "name_en": "Impact",
+    "name_ko": "충격"
+  },
+  {
+    "slug": "toxin_damage",
+    "name_en": "Toxin",
+    "name_ko": "독성"
+  },
+  {
+    "slug": "status_duration",
+    "name_en": "Status Duration",
+    "name_ko": "상태 이상 지속 시간"
+  },
+  {
+    "slug": "ammo_maximum",
+    "name_en": "Ammo Maximum",
+    "name_ko": "탄약 최대량"
+  },
+  {
+    "slug": "recoil",
+    "name_en": "Weapon Recoil",
+    "name_ko": "반동"
+  },
+  {
+    "slug": "zoom",
+    "name_en": "Zoom",
+    "name_ko": "확대율 증가"
+  },
+  {
+    "slug": "channeling_damage",
+    "name_en": "Initial Combo",
+    "name_ko": "기본 연속기"
+  },
+  {
+    "slug": "channeling_efficiency",
+    "name_en": "Heavy Attack Efficiency",
+    "name_ko": "강 공격 효율"
+  },
+  {
+    "slug": "critical_chance",
+    "name_en": "Critical Chance",
+    "name_ko": "치명타 확률"
+  },
+  {
+    "slug": "critical_damage",
+    "name_en": "Critical Damage",
+    "name_ko": "치명타 피해"
+  },
+  {
+    "slug": "base_damage_/_melee_damage",
+    "name_en": "Damage",
+    "name_ko": "피해"
+  },
+  {
+    "slug": "heat_damage",
+    "name_en": "Heat",
+    "name_ko": "화염"
+  },
+  {
+    "slug": "multishot",
+    "name_en": "Multishot",
+    "name_ko": "멀티샷"
+  },
+  {
+    "slug": "reload_speed",
+    "name_en": "Reload Speed",
+    "name_ko": "재장전 속도"
+  },
+  {
+    "slug": "range",
+    "name_en": "Range",
+    "name_ko": "사거리"
+  },
+  {
+    "slug": "damage_vs_corpus",
+    "name_en": "Damage to Corpus",
+    "name_ko": "코퍼스에 대한 피해"
+  },
+  {
+    "slug": "damage_vs_grineer",
+    "name_en": "Damage to Grineer",
+    "name_ko": "그리니어에 대한 피해"
+  },
+  {
+    "slug": "puncture_damage",
+    "name_en": "Puncture",
+    "name_ko": "관통"
+  },
+  {
+    "slug": "damage_vs_infested",
+    "name_en": "Damage to Infested",
+    "name_ko": "인페스티드에 대한 피해"
+  },
+  {
+    "slug": "electric_damage",
+    "name_en": "Electricity",
+    "name_ko": "전기"
+  },
+  {
+    "slug": "finisher_damage",
+    "name_en": "Finisher Damage",
+    "name_ko": "마무리 일격 피해"
+  },
+  {
+    "slug": "fire_rate_/_attack_speed",
+    "name_en": "Fire Rate / Attack Speed",
+    "name_ko": "연사력 또는 공격 속도"
+  },
+  {
+    "slug": "projectile_speed",
+    "name_en": "Projectile Speed",
+    "name_ko": "발사체 속도"
+  },
+  {
+    "slug": "magazine_capacity",
+    "name_en": "Magazine Capacity",
+    "name_ko": "탄창 용량"
+  },
+  {
+    "slug": "status_chance",
+    "name_en": "Status Chance",
+    "name_ko": "상태 이상 확률"
+  },
+  {
+    "slug": "cold_damage",
+    "name_en": "Cold",
+    "name_ko": "냉기"
+  },
+  {
+    "slug": "combo_duration",
+    "name_en": "Combo Duration",
+    "name_ko": "연속기 지속 시간"
+  },
+  {
+    "slug": "critical_chance_on_slide_attack",
+    "name_en": "Critical Chance for Slide Attack",
+    "name_ko": "슬라이드 공격에 치명타 확률 추가"
+  },
+  {
+    "slug": "chance_to_gain_extra_combo_count",
+    "name_en": "Additional Combo Count Chance",
+    "name_ko": "추가 연속기 카운트 확률"
+  },
+  {
+    "slug": "chance_to_gain_combo_count",
+    "name_en": "Chance to Gain Combo Count",
+    "name_ko": "연속기 카운트 획득 확률"
+  },
+  {
+    "slug": "ammo_efficiency",
+    "name_en": "Ammo Efficiency",
+    "name_ko": "탄약 효율"
+  },
+  {
+    "slug": "blast",
+    "name_en": "Blast",
+    "name_ko": "폭발"
+  },
+  {
+    "slug": "corrosive",
+    "name_en": "Corrosive",
+    "name_ko": "부식성"
+  },
+  {
+    "slug": "damage_to_orokin",
+    "name_en": "Damage to Orokin",
+    "name_ko": "오로킨에 대한 피해"
+  },
+  {
+    "slug": "damage_to_scaldra",
+    "name_en": "Damage to Scaldra",
+    "name_ko": "스칼드라에 대한 피해"
+  },
+  {
+    "slug": "damage_to_techrot",
+    "name_en": "Damage to Techrot",
+    "name_ko": "테크병에 대한 피해"
+  },
+  {
+    "slug": "gas",
+    "name_en": "Gas",
+    "name_ko": "가스"
+  },
+  {
+    "slug": "heavy_attack_wind_up_speed",
+    "name_en": "Heavy Attack Wind Up Speed",
+    "name_ko": "강 공격 준비 속도"
+  },
+  {
+    "slug": "magazine_reloaded_s_when_holstered",
+    "name_en": "Magazine Reloaded/s when Holstered",
+    "name_ko": "무기 수납 시 초당 만큼의 탄창 재장전"
+  },
+  {
+    "slug": "magnetic",
+    "name_en": "Magnetic",
+    "name_ko": "자성"
+  },
+  {
+    "slug": "melee_damage_on_heavy_attack",
+    "name_en": "Melee Damage on Heavy Attack",
+    "name_ko": "강 공격 시 근접 피해"
+  },
+  {
+    "slug": "parry_angle",
+    "name_en": "Parry Angle",
+    "name_ko": "막기 각도"
+  },
+  {
+    "slug": "radiation",
+    "name_en": "Radiation",
+    "name_ko": "방사능"
+  },
+  {
+    "slug": "slam_attack_damage",
+    "name_en": "Slam Attack Damage",
+    "name_ko": "지면 강타 피해"
+  },
+  {
+    "slug": "status_damage",
+    "name_en": "Status Damage",
+    "name_ko": "상태 이상 피해"
+  },
+  {
+    "slug": "viral",
+    "name_en": "Viral",
+    "name_ko": "바이러스"
+  },
+  {
+    "slug": "weak_point_critical_chance",
+    "name_en": "Weak Point Critical Chance",
+    "name_ko": "약점 치명타 확률"
+  },
+  {
+    "slug": "weak_point_damage",
+    "name_en": "Weak Point Damage",
+    "name_ko": "약점 피해"
+  }
+]
