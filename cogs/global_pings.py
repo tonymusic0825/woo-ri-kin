@@ -85,19 +85,23 @@ class Globalping(commands.Cog):
                 print(f"Failed to announce fissure {f['id']}: {e}")
 
     async def send_fissure(self, channel, f):
-        kind = "강철의 길" if f["isHard"] else "일반"
+
+        kind, bar_color, dot = (
+            ("강철의 길", discord.Color.orange(), "🔸") if f["isHard"]
+            else ("일반", discord.Color.blue(), "🔹")
+        )
 
         node, planet = GOOD_FISSURES.parse_nodekey(f["nodeKey"])
 
         embed = discord.Embed(
-            title=f"{node} 균열 ({kind})",
+            title=f"{node} 균열 ({dot} {kind})",
             description=(
                 f"**행성:** {planet}\n"
                 f"**Mission 타입:** {TRANSLATIONS.get(f['missionType'], f['missionType'])}\n"
                 f"**Fissure 타입:** {TRANSLATIONS.get(f['tier'], f['tier'])}\n"
                 f"**만료:** {discord_time(f['expiry'])}"
             ),
-            color=discord.Color.orange(),
+            color=bar_color,
         )
 
         files = []

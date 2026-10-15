@@ -1,7 +1,11 @@
 import json
+import logging
+from collections import Counter
 from pathlib import Path
 
 import aiohttp
+
+log = logging.getLogger(__name__)
 
 V1 = "https://api.warframe.market/v1"
 TIMEOUT = aiohttp.ClientTimeout(total=10)
@@ -13,31 +17,68 @@ HEADERS = {
 DATA = Path(__file__).resolve().parent.parent / "data"
 
 
-def _load(filename):
+def _load(filename, default=None):
     path = DATA / filename
     if not path.exists():
+        if default is not None:
+            return default
         raise FileNotFoundError(f"{path} not found. Run: python dl/warframe_market_dl.py")
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-WEAPONS = _load("riven_weapons.json")
-ATTRIBUTES = _load("riven_attributes.json")
+# ---------- Search keys (names, initials, aliases) ----------
+
+def _key(text):
+    """Lowercase and drop spaces, so '치명타확률' matches '치명타 확률'."""
+    return "".join(text.lower().split())
 
 
-# ---------- Name lookup (local JSON) ----------
+def _initials(name):
+    """'치명타 확률' -> '치확', 'Critical Chance' -> 'cc'. Multi-word names only."""
+    words = (name or "").split()
+    return "".join(w[0] for w in words) if len(words) > 1 else None
+
+
+def _prepare(items, aliases):
+    """Give each item a set of search keys: slug, names, unique initials, manual aliases."""
+    slugs = {item["slug"] for item in items}
+    for slug in set(aliases) - slugs:
+        log.warning("Alias file has unknown slug: %s", slug)
+
+    # initials shared by two items are ambiguous, so skip those
+    counts = Counter()
+    for item in items:
+        counts.update({_initials(item["name_ko"]), _initials(item["name_en"])})
+
+    for item in items:
+        keys = [item["slug"], item["name_en"], item["name_ko"], *aliases.get(item["slug"], [])]
+        for abbr in (_initials(item["name_ko"]), _initials(item["name_en"])):
+            if abbr and counts[abbr] == 1:
+                keys.append(abbr)
+        item["keys"] = {_key(k) for k in keys if k}
+
+    return items
+
+
+ALIASES = _load("riven_aliases_ko.json", default={})
+WEAPONS = _prepare(_load("riven_weapons.json"), ALIASES.get("weapons", {}))
+ATTRIBUTES = _prepare(_load("riven_attributes.json"), ALIASES.get("attributes", {}))
+
+
+# ---------- Name lookup ----------
 
 def _match(items, query, limit):
-    """Match on slug, English, or Korean name. Exact first, then prefix, then substring."""
-    q = query.strip().lower()
+    """Exact key match first, then prefix, then substring."""
+    q = _key(query)
     exact, starts, contains = [], [], []
 
     for item in items:
-        names = [n.lower() for n in (item["slug"], item["name_en"], item["name_ko"]) if n]
-        if q in names:
+        keys = item["keys"]
+        if q in keys:
             exact.append(item)
-        elif any(n.startswith(q) for n in names):
+        elif any(k.startswith(q) for k in keys):
             starts.append(item)
-        elif any(q in n for n in names):
+        elif any(q in k for k in keys):
             contains.append(item)
 
     return (exact + starts + contains)[:limit]
@@ -49,6 +90,14 @@ def find_weapons(query, limit=25):
 
 def find_attributes(query, limit=25):
     return _match(ATTRIBUTES, query, limit)
+
+
+_ATTRIBUTE_BY_SLUG = {a["slug"]: a for a in ATTRIBUTES}
+
+
+def get_attribute(slug):
+    """Look up an attribute by its exact slug (e.g. from an auction). None if unknown."""
+    return _ATTRIBUTE_BY_SLUG.get(slug)
 
 
 def _slug(finder, query):
@@ -92,8 +141,8 @@ async def search_rivens(weapon, positives=(), negative=None, limit=10):
     """
     Search riven auctions, cheapest first.
 
-    weapon, positives, and negative can be Korean names, English names, or slugs.
-    Example: await search_rivens("브래톤", ["치명타 확률", "multishot"], "zoom")
+    weapon, positives, and negative can be Korean names, English names, slugs, or aliases.
+    Example: await search_rivens("브래톤", ["치확", "멀샷"], "줌")
     """
     if len(positives) > 3:
         raise ValueError("A riven can have at most 3 positive stats")

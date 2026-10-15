@@ -1,0 +1,86 @@
+{
+  "weapons": {},
+  "attributes": {
+    "status_duration": [
+      "상지"
+    ],
+    "ammo_maximum": [
+      "탄약 최대"
+    ],
+    "toxin_damage": [
+      "독"
+    ],
+    "zoom": [
+      "줌"
+    ],
+    "critical_chance": [
+      "치확"
+    ],
+    "critical_damage": [
+      "치피",
+      "cd"
+    ],
+    "heat_damage": [
+      "화"
+    ],
+    "multishot": [
+      "멀샷",
+      "멀"
+    ],
+    "reload_speed": [
+      "재장"
+    ],
+    "damage_vs_corpus": [
+      "코퍼스"
+    ],
+    "damage_vs_grineer": [
+      "그리니어"
+    ],
+    "damage_vs_infested": [
+      "인페"
+    ],
+    "electric_damage": [
+      "전"
+    ],
+    "finisher_damage": [
+      "마무리"
+    ],
+    "fire_rate_/_attack_speed": [
+      "연사력",
+      "공속",
+      "연사"
+    ],
+    "projectile_speed": [
+      "발사체"
+    ],
+    "magazine_capacity": [
+      "탄창"
+    ],
+    "status_chance": [
+      "상확"
+    ],
+    "cold_damage": [
+      "냉"
+    ],
+    "blast": [
+      "폭"
+    ],
+    "corrosive": [
+      "부식",
+      "부"
+    ],
+    "damage_to_orokin": [
+      "오로킨"
+    ],
+    "damage_to_scaldra": [
+      "스칼드라"
+    ],
+    "damage_to_techrot": [
+      "테크병"
+    ],
+    "status_damage": [
+      "상피",
+      "상태 피해"
+    ]
+  }
+}

@@ -40,7 +40,7 @@ class Warframestat(commands.Cog):
 
         if normal:
             normal_embed = discord.Embed(
-                title="✨ 일반 보이드 균열 현황", 
+                title="🔹 일반 보이드 균열 현황", 
                 color=discord.Color.blue()
             )
             normal_lines = [
@@ -53,8 +53,8 @@ class Warframestat(commands.Cog):
 
         if hard:
             hard_embed = discord.Embed(
-                title="💀 강철의 길 보이드 균열 현황", 
-                color=discord.Color.red()
+                title="🔸 강철의 길 보이드 균열 현황", 
+                color=discord.Color.orange()
             )
             hard_lines = [
                 f"• **{TRANSLATIONS.get(f['tier'], f['tier'])}** | `{TRANSLATIONS.get(f['missionType'], f['missionType'])}` ({f['node']}) — {discord_time(f['expiry'])}"
