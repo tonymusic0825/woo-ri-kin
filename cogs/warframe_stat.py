@@ -68,10 +68,5 @@ class Warframestat(commands.Cog):
         else:
             await interaction.followup.send("현재 활성화된 균열이 없습니다.")
 
-    @app_commands.command(name="키티어", description="키티어 시간")
-    async def kiteer(self, interaction: discord.Interaction):
-        await interaction.response.defer()
-
-
 async def setup(bot):
     await bot.add_cog(Warframestat(bot))

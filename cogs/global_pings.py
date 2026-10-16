@@ -30,6 +30,7 @@ class Globalping(commands.Cog):
 
     @tasks.loop(minutes=1)
     async def check_worldstate(self):
+        print("Checking for fissures!")
         channel = self.bot.get_channel(ANNOUNCE_CHANNEL_ID)
         if channel is None:
             print("Announcement channel not found. Check ANNOUNCE_CHANNEL_ID.")
