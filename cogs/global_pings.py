@@ -43,18 +43,6 @@ class Globalping(commands.Cog):
     async def before_check(self):
         await self.bot.wait_until_ready()
 
-    # -------------------------- TESTING --------------------------
-    @app_commands.command(name="testfissures", description="Run the fissure check on fake data (testing)")
-    @app_commands.default_permissions(administrator=True)
-    async def test_fissures(self, interaction: discord.Interaction):
-        channel = self.bot.get_channel(ANNOUNCE_CHANNEL_ID)
-        if channel is None:
-            await interaction.response.send_message("Announcement channel not found. Check ANNOUNCE_CHANNEL_ID.", ephemeral=True)
-            return
-
-        await interaction.response.send_message(f"Posting fake fissures to {channel.mention}...", ephemeral=True)
-        await self.check_fissures(channel, fissures=FAKE_FISSURES, announced=set())
-
     # -------------------------- FISSURES --------------------------
     async def check_fissures(self, channel, fissures=None, announced=None):
         if announced is None:

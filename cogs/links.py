@@ -59,5 +59,37 @@ class Links(commands.Cog):
         embed.set_footer(text="💡 추천하고 싶은 사이트가 있으면 알려주세요!")
         await interaction.response.send_message(embed=embed)
 
+    # @app_commands.command(name="정보", description="워프레임 관한 일반 정보 링크")
+    # async def builds(self, interaction: discord.Interaction):
+    #     embed = discord.Embed(
+    #         title="빌드 사이트 모음",
+    #         description=(
+    #             "워프레임 빌드를 찾을 때 유용한 사이트들입니다.\n"
+    #             "━━━━━━━━━━━━━━━━━━━━"
+    #         ),
+    #         color=discord.Color.red(),
+    #     )
+
+    #     # 1. 종합 빌드 모음
+    #     embed.add_field(
+    #         name="📊 종합 빌드 시트",
+    #         value=(
+    #             "• [오디스 갤러리 빌드 모음](https://docs.google.com/spreadsheets/d/1kyA-h2bTLZ2JpOnUMgiB16EE-a9xNrGU0pUgukpPdsU/edit?pli=1&gid=2070403418#gid=2070403418)\n"
+    #             "• [해외 메타 빌드 모음](https://docs.google.com/document/d/1m11trfxy8_DeRQn9FarkiW7Bki5PMdgCHvxkbJ9e5D8/edit?pli=1&tab=t.0)"
+    #             "\n\u200b"
+    #         ),
+    #         inline=False,
+    #     )
+
+
+    #     embed.set_footer(
+    #         text="💡 추천하고 싶거나 수정이 필요한 사이트가 있다면 관리자에게 알려주세요!"
+    #     )
+        
+    #     embed.set_footer(text="💡 추천하고 싶은 사이트가 있으면 알려주세요!")
+    #     await interaction.response.send_message(embed=embed)
+
+
+
 async def setup(bot):
     await bot.add_cog(Links(bot))

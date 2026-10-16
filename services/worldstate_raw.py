@@ -2,10 +2,12 @@ import json
 import os
 from datetime import datetime, timezone
 import aiohttp
+import time
 
 WORLDSTATE_URL = "https://api.warframe.com/cdn/worldState.php"
 TIMEOUT = aiohttp.ClientTimeout(total=10)
 NODES_PATH = "data/solNodes.json"
+ITEMS_PATH = "data/items.json"
 
 TIERS = {
     "VoidT1": ("Lith", 1),
@@ -36,14 +38,14 @@ MISSION_TYPES = {
     "MT_ALCHEMY": "Alchemy",
 }
 
-def _load_nodes():
-    if not os.path.exists(NODES_PATH):
-        print(f"Warning: {NODES_PATH} not found. Node names will show as raw codes.")
+def _load_json(path):
+    if not os.path.exists(path):
+        print(f"Warning: {path} not found. Names will show as raw codes.")
         return {}
-    with open(NODES_PATH, encoding="utf-8") as fp:
+    with open(path, encoding="utf-8") as fp:
         return json.load(fp)
-
-NODES = _load_nodes()  # loaded once when the bot starts
+ 
+NODES = _load_json(NODES_PATH) 
 
 # ---------- Translation helpers ----------
 
@@ -66,6 +68,19 @@ def _mission_name(code):
         print(f"Unknown mission type code: {code}")
         return code
     return name
+
+def _ms(date_obj):
+    """{"$date": {"$numberLong": "1791880389686"}} -> 1791880389686"""
+    return int(date_obj["$date"]["$numberLong"])
+
+def _item_name(path, ITEMS):
+    """NEW: "/Lotus/StoreItems/Upgrades/Mods/..." -> "Primed Continuity" (or Korean)"""
+    key = path.replace("/StoreItems", "")  # item lists don't use the /StoreItems part
+    entry = ITEMS.get(key)
+    if entry is None:
+        print(f"Unknown item: {path}")
+        return path.split("/")[-1]  # fallback: last part of the path
+    return entry["ko"]  # change to entry["en"] for English
 
 # ---------- Fetching ----------
 
@@ -104,3 +119,33 @@ async def get_fissures():
         except Exception as e:
             print(f"Skipping a fissure that failed to parse: {e}")
     return fissures
+
+async def get_baro():
+    ws = await _get_worldstate()
+    traders = ws.get("VoidTraders", []) 
+    if not traders:
+        return {"active": False}
+
+    t = traders[0]
+    now_ms = time.time() * 1000
+    active = _ms(t["Activation"]) <= now_ms < _ms(t["Expiry"])
+    ITEMS = _load_json(ITEMS_PATH) # This is loading items json for translation
+
+    inventory = [
+        {
+            "item": _item_name(i["ItemType"], ITEMS=ITEMS),
+            "ducats": i.get("PrimePrice", 0),
+            "credits": i.get("RegularPrice", 0),
+        }
+        for i in t.get("Manifest", [])  # Manifest only exists while he's here
+    ]
+
+    return {
+        "active": active,
+        "activation": _ms_to_iso(t["Activation"]),
+        "expiry": _ms_to_iso(t["Expiry"]),
+        "location": _node_name(t["Node"]),
+        "inventory": inventory,
+    }
+
+
