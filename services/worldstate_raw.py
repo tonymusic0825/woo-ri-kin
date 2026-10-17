@@ -38,6 +38,23 @@ MISSION_TYPES = {
     "MT_ALCHEMY": "Alchemy",
 }
 
+FACTIONS = {
+    "FC_GRINEER": "그리니어",
+    "FC_CORPUS": "코퍼스",
+    "FC_INFESTATION": "감염체",
+    "FC_OROKIN": "오로킨",
+    "FC_SENTIENT": "센티언트",
+    "FC_MITW": "머머",
+    "FC_TECHROT": "테크롯",
+    "FC_SCALDRA": "스칼드라",
+}
+ 
+# Deviation / risk codes -> display names.
+# Unknown codes print to the console; add them here as you see them, e.g.
+#   "GrowingIncursion": "성장하는 침입",
+ARCHIMEDEA_NAMES = {
+}
+
 def _load_json(path):
     if not os.path.exists(path):
         print(f"Warning: {path} not found. Names will show as raw codes.")
@@ -148,4 +165,65 @@ async def get_baro():
         "inventory": inventory,
     }
 
-
+def _faction_name(code):
+    name = FACTIONS.get(code)
+    if name is None:
+        print(f"Unknown faction code: {code}")
+        return code
+    return name
+ 
+ 
+def _split_camel(code):
+    """Fallback: "GrowingIncursion" -> "Growing Incursion" """
+    out = ""
+    for i, ch in enumerate(code):
+        if ch.isupper() and i > 0 and code[i - 1].islower():
+            out += " "
+        out += ch
+    return out
+ 
+ 
+def _archimedea_name(code):
+    name = ARCHIMEDEA_NAMES.get(code)
+    if name is None:
+        print(f"Unknown Archimedea code: {code}")
+        return _split_camel(code)
+    return name
+ 
+ 
+def _parse_conquest(c):
+    missions = []
+    for m in c.get("Missions", []):
+        # difficulties: [{"type": "CD_NORMAL", ...}, {"type": "CD_HARD", ...}]
+        diffs = {d["type"]: d for d in m.get("difficulties", [])}
+        normal = diffs.get("CD_NORMAL", {})
+        hard = diffs.get("CD_HARD", {})
+ 
+        normal_risks = normal.get("risks", [])
+        elite_extra = [r for r in hard.get("risks", []) if r not in normal_risks]
+ 
+        missions.append({
+            "faction": _faction_name(m.get("faction", "?")),
+            "missionType": _mission_name(m.get("missionType", "?")),
+            "deviation": _archimedea_name(normal.get("deviation", "?")),
+            "risks": [_archimedea_name(r) for r in normal_risks],
+            "eliteRisks": [_archimedea_name(r) for r in elite_extra],
+        })
+ 
+    return {
+        "type": c.get("Type"),  # "CT_LAB" = Deep Archimedea, "CT_HEX" = Temporal (Hex)
+        "activation": _ms_to_iso(c["Activation"]),
+        "expiry": _ms_to_iso(c["Expiry"]),
+        "missions": missions,
+    }
+ 
+ 
+async def get_conquests():
+    ws = await _get_worldstate()
+    conquests = []
+    for c in ws.get("Conquests", []):
+        try:
+            conquests.append(_parse_conquest(c))
+        except Exception as e:
+            print(f"Skipping an Archimedea that failed to parse: {e}")
+    return conquests

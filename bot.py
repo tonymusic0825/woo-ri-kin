@@ -26,6 +26,7 @@ class Woorikin(commands.Bot):
         await self.load_extension("cogs.warframe_stat")
         await self.load_extension("cogs.global_pings")
         await self.load_extension("cogs.baro")
+        await self.load_extension("cogs.weekly_reset_pings")
         self.tree.copy_global_to(guild=TEST_GUILD)
         await self.tree.sync(guild=TEST_GUILD)
 
